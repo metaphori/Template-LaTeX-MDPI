@@ -40,8 +40,6 @@ before_deploy:
 deploy:
   - provider: releases
     edge: true
-    token:
-      secure: NMxb33l3KDAVQ+2cTbE1HQA9J54ljry4Q6+yZiFPYAtPgAihYbf29q+o/4bfNh1YbatDFf9lbPwWCT7JmFPa/7IbvZjFr6UOHr+nSybOS96IrbujTfF7yvbzed4SfwgiZX1ufLuluNcb2TU1dmsBHthVRCw+eCnKZN9B5DWvGz2g3PKLHAp5RSWsu/BsE+TbIQSiwdG7p/v/Ag5P8BIQlPviCPEllIyzMcMWrdctYRMJuoRro3U+paq3C3Qw8RWzb7cDVKkyIThsh0iTLMNkU4gSQZTIcaS8zG+e5yo/uFBycGXfsh4KYdGkTNdSif17Hi4jK8PxgjHzQUbw9dhSFqzhu6D+2bnzdcFKd3b8gtgFpf5r8JrTBwDx4B01YaaGdM90uEOI3mkgTTh2ycDM2zYkk3od9nEsRS9tlpUPcK0cNl++oPMHIueM/RonRNo8kPI70AMKShN6wg+IJjdHZimeAaMysQg4Scqolb1Wh/cd+yqu2H5l+h90pRt6qI0+0wqGZvQ950UBDTjhSuo+wSkvYyc/ZTrf50kdWBfn5N8wayDDnMA6qgFhgr6pHbFJY3arv4FTOPTvKjGQfrhFpIwHYuaVCTzrSfTTDCTElc2vVlDePbq4f4kfqvmN/SMTmHCSIdjSMFjB9ft5Mptd54C8qz90Zi3NhwNzUfxDZfs=
     file: "*.pdf"
     on:
       all_branches: true
