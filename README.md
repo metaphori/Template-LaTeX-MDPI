@@ -1,13 +1,13 @@
-# LaTeX template repository for LMCS  
+# LaTeX template repository for MDPI papers
 
-[![Build Status](https://travis-ci.com/DanySK/Template-LaTeX-LMCS.svg?branch=master)](https://travis-ci.com/DanySK/Template-LaTeX-LMCS)
+[![Build Status](https://travis-ci.com/DanySK/Template-LaTeX-LMCS.svg?branch=master)](https://travis-ci.com/metaphori/Template-LaTeX-MDPI)
 
-This repository is meant to be used as template for quickly starting LMCS papers,
+This repository is meant to be used as template for quickly starting MDPI papers,
 having them built on a continuous integrator, and having them quickly deployed in GitHub releases.
 
 The build system is based on Gradle, using [the latex-gradle plugin](https://github.com/DanySK/gradle-latex).
 
-The file being built is the LMCS guide for authors.
+The file being built is the MDPI guide for authors.
 
 ## Using the project
 
