@@ -3,7 +3,7 @@
 *.blg
 *.log
 *.out
-latex.pdf
+template.pdf
 *.synctex.gz
 *.toc
 .idea/

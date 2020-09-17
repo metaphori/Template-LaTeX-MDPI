@@ -9,4 +9,4 @@ buildscript {
 }
 bootstrapRefreshVersions()
 
-rootProject.name = "latex-template"
+rootProject.name = "mdpi-template"

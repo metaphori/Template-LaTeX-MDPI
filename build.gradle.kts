@@ -3,5 +3,5 @@ plugins {
 }
 
 latex {
-    "latex"()
+    "template"()
 }
