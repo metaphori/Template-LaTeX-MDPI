@@ -10,7 +10,7 @@ jobs:
     steps:
       # Checkout the repository
       - name: Make ImageMagik permissive
-        run: sed -i 's/rights=".*"/rights="all"/' /etc/ImageMagick-6/policy.xml
+        run: sudo sed -i 's/rights=".*"/rights="all"/' /etc/ImageMagick-6/policy.xml
       - name: Checkout
         uses: actions/checkout@v2
         with:
