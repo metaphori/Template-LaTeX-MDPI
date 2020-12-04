@@ -8,9 +8,9 @@ jobs:
   Build-LaTeX:
     runs-on: ubuntu-20.04
     steps:
-      # Checkout the repository
       - name: Make ImageMagik permissive
         run: sudo sed -i 's/rights=".*"/rights="all"/' /etc/ImageMagick-6/policy.xml
+      # Checkout the repository
       - name: Checkout
         uses: actions/checkout@v2
         with:
