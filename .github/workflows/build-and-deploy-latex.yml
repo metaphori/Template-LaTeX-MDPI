@@ -21,7 +21,7 @@ jobs:
       - name: Install TeXLive
         uses: DanySK/setup-texlive-action@master
       - name: Debug file conversion
-        run: convert Definitions/logo-mdpi.eps Definitions/logo-mdpi.pdf
+        run: epstopdf Definitions/logo-mdpi.eps Definitions/logo-mdpi.pdf
       - name: Compile LaTeX
         uses: DanySK/compile-latex-action@master
       - name: Autotag
