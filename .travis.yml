@@ -3,7 +3,7 @@
 if: repo != head_repo AND tag !~ /^[\w\.]+-\d+-\w+/
 
 language: java
-dist: focal
+dist: bionic
 addons:
   apt:
     update: true
